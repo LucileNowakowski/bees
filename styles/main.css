@@ -1,6 +1,5 @@
 
 header {
-
   background: #fff87d;
   color: black;
   position: relative;
@@ -25,19 +24,30 @@ header:after {
 }
 
 .abeille-menu{
+  position: fixed;
+  margin-left: 15px;
   display: flex;
   width: 5%;
   z-index: 1;
   float: right;
-  margin-top: 0px;
+  margin-top: 15px;
+}
+
+.abeille-menu:hover{
+  width: 7%;
 }
 
 .accueil{
+  margin-right: 20px;
   color: black;
   display: flex;
   padding-top: 30px;
   float: right;
   font-size: 1.5em;
+}
+
+.accueil:hover{
+  font-size: 1.7em;
 }
 
 h1 {
@@ -146,6 +156,8 @@ width: 80%;
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
+  margin-bottom: 40px;
+
 
 }
 
@@ -166,6 +178,7 @@ width: 80%;
   border-radius: 15px 15px 15px 15px;
 -moz-border-radius: 15px 15px 15px 15px;
 -webkit-border-radius: 15px 15px 15px 15px;
+margin-bottom: 40px;
 
 }
 
@@ -190,11 +203,17 @@ width: 80%;
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
+  margin-bottom: 40px;
+
 
 }
 
-.fleches{
-
+.debut:hover{
+  color: black;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
 }
 
 .output {
